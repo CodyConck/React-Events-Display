@@ -1,25 +1,18 @@
-import React from "react";
+import Accordion from "react-bootstrap/Accordion";
 
 function Events() {
-  // write some jsx to add functionality onclick
   return (
-    <section>
-      <div className="title">
-        <h2>Schedule of Events</h2>
-      </div>
-      <article className="card">
-        <div className="event">Event1</div>
-        <div className="info-text">Some info about event1</div>
-      </article>
-      <article className="card">
-        <div className="event">Event2</div>
-        <div className="info-text">Some info about event2</div>
-      </article>
-      <article className="card">
-        <div className="event">Event3</div>
-        <div className="info-text">Some info about event3</div>
-      </article>
-    </section>
+    <Accordion defaultActiveKey="0">
+      <h2 className="title">Schedule of Events</h2>
+      <Accordion.Item eventKey="0">
+        <Accordion.Header id="center-text">Event #1</Accordion.Header>
+        <Accordion.Body>A bunch of info about the event 1</Accordion.Body>
+      </Accordion.Item>
+      <Accordion.Item eventKey="1">
+        <Accordion.Header>Event #2</Accordion.Header>
+        <Accordion.Body>A bunch of info about event 2</Accordion.Body>
+      </Accordion.Item>
+    </Accordion>
   );
 }
 

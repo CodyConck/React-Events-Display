@@ -1,11 +1,11 @@
-/* body {
+body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-} */
+}
 
 body {
   background-color: aliceblue;
@@ -15,7 +15,7 @@ body {
   text-align: center;
 }
 
-.event {
+.accordion {
   background-color: aquamarine;
   text-align: center;
   border: 2px solid rgb(5, 245, 141);
@@ -25,22 +25,6 @@ body {
   margin: auto;
   max-width: 620px;
 }
-
-.card {
-  margin: 15px;
-}
-/* hidden info text */
-.info-text {
-  display: none;
-}
-.show-text .info-text {
-  background-color: aliceblue;
+#center-text {
   text-align: center;
-  border: 2px solid rgb(5, 245, 141);
-  border-radius: 12px;
-  box-shadow: 0 5px 15px rgba(89, 89, 89, 0.2);
-  padding: 15px;
-  margin: auto;
-  max-width: 620px;
-  display: block;
 }
