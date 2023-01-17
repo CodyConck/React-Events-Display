@@ -18,13 +18,20 @@ body {
 .accordion {
   background-color: aquamarine;
   text-align: center;
-  border: 2px solid rgb(5, 245, 141);
-  border-radius: 12px;
+
+  /* border-radius: 12px; */
   box-shadow: 0 5px 15px rgba(89, 89, 89, 0.2);
   padding: 15px;
   margin: auto;
   max-width: 620px;
 }
-#center-text {
-  text-align: center;
+#event-card {
+  background-color: aliceblue;
+}
+#accord-item {
+  border: 5px solid rgb(5, 245, 141);
+}
+.accordion-collapse.show {
+  background-color: rgb(5, 245, 141);
+  /* border-radius: 12px; */
 }

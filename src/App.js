@@ -1,6 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-//import "./index.css";
+import "./index.css";
 import Events from "./components/events.js";
 
 function App() {
